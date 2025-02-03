@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { CollectionService } from '../../collection.service';
+import { CollectionService } from '../../services/collection.service';
 
 @Component({
   selector: 'app-request-form',
