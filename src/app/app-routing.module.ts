@@ -6,10 +6,10 @@ import { RequestFormComponent } from './collect/request-form/request-form.compon
 import { AuthGuard } from './shared/auth.guard';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/login', pathMatch: 'full' }, 
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'dashboard', component: RequestFormComponent, canActivate: [AuthGuard] },
+  { path: 'requests', component: RequestFormComponent, canActivate: [AuthGuard] }, // Protected route
 ];
 
 @NgModule({

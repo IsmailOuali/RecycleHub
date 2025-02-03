@@ -4,6 +4,7 @@ import { CollectionService } from '../../collection.service';
 
 @Component({
   selector: 'app-request-form',
+  standalone: false,
   templateUrl: './request-form.component.html',
   styleUrls: ['./request-form.component.css'],
 })
