@@ -14,3 +14,5 @@ body {
     padding: 2rem;
     min-height: calc(100vh - 120px);
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

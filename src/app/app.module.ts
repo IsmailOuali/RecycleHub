@@ -7,6 +7,8 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { RequestFormComponent } from './collect/request-form/request-form.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ConfirmationPopupComponent } from './shared/confirmation-popup/confirmation-popup.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     RegisterComponent,
     RequestFormComponent,
     LoginComponent,
-    NavbarComponent
+    NavbarComponent,
+    ConfirmationPopupComponent
 
   ],
   imports: [
@@ -22,7 +25,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
