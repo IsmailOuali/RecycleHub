@@ -16,7 +16,9 @@
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022"
+    "module": "ES2022",
+    "types": ["node"], // Add this if missing
+    "typeRoots": ["node_modules/@types"] // Ensure this is present
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

@@ -1,0 +1,26 @@
+.popup-container {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #00ff88;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background: #00ff88;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #00cc6a;
+  }

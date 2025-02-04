@@ -9,6 +9,8 @@ import { RequestFormComponent } from './collect/request-form/request-form.compon
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ConfirmationPopupComponent } from './shared/confirmation-popup/confirmation-popup.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Required for Angular Material
+import { MatDialogModule } from '@angular/material/dialog'; // Import MatDialogModule
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule, 
+    MatDialogModule, 
   ],
   providers: [
     provideAnimationsAsync()
