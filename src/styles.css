@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7fafc;
+  }
+  
+  .app-container {
+    margin-top: 70px; /* Compensation pour la navbar fixe */
+  }
+  
+  .content {
+    padding: 2rem;
+    min-height: calc(100vh - 120px);
+  }
