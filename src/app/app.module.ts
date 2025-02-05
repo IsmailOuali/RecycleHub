@@ -10,7 +10,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ConfirmationPopupComponent } from './shared/confirmation-popup/confirmation-popup.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Required for Angular Material
-import { MatDialogModule } from '@angular/material/dialog'; // Import MatDialogModule
+import { MatDialogModule } from '@angular/material/dialog';
+import { DashboardComponent } from './dashboard/dashboard.component'; // Import MatDialogModule
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MatDialogModule } from '@angular/material/dialog'; // Import MatDialogM
     RequestFormComponent,
     LoginComponent,
     NavbarComponent,
-    ConfirmationPopupComponent
+    ConfirmationPopupComponent,
+    DashboardComponent
 
   ],
   imports: [
