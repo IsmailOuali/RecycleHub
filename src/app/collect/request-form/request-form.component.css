@@ -2,7 +2,7 @@
     max-width: 500px;
     margin: 0 auto;
     padding: 2rem;
-    background: #f9f9f9;
+    background: #024f34;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
@@ -28,6 +28,8 @@
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: rgb(81, 166, 81);
+    color: white;
   }
   
   button {
